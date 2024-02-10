@@ -4241,12 +4241,14 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
   color: #1abc9c;
+  
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
@@ -4390,7 +4392,7 @@ fieldset:disabled .btn {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  /* display:flex;
+  /* display:block;
   justify-content: center; */
   align-items: center;
 }
@@ -7801,7 +7803,7 @@ fieldset:disabled .btn {
 }
 
 .ms-auto {
-  margin-left: auto !important;
+  margin-left: 70px !important;
 }
 
 .p-0 {
@@ -11764,8 +11766,6 @@ html {
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 40px;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
@@ -11946,7 +11946,8 @@ html {
   width: 150px;
   height: 60px;
   /* margin-bottom: 20px; */
-  margin-left: -70px;
+  /* margin-left: -70px;
+  margin-right: 100px; */
 
 }
 #moral{
@@ -11955,7 +11956,9 @@ html {
   width: 150px;
   height: 60px;
   /* margin-bottom: 20px; */
-  margin-right: -100px;
+  /* margin-right: 100px;
+  margin-left: 110px;
+   */
 }
 .logo {
   font-size: 12pt;
