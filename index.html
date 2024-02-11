@@ -1,73 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>IIIT Kottayam - MORAL</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/Slideshow.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>IIIT Kottayam - MORAL</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/Slideshow.css">
+	    <link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/animate.css">
 
 
-</head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-        <div class="container">
-            <table border="0" style="color:white; text-transform: capitalize;">
-                <tr rowspan=2>
-                    <td> <a class="navbar-brand logo" href="#page-top">
-                            <img src="assets/img/group_logo.JPG" id="rcorners2" /></a></td>
-                </tr>
-            </table>
-            <button class="navbar-toggler font-weight-bold bg-primary text-white rounded" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#home">Home</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#people">People</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#areas">Research</a></li>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            
+          
+            <div class="container">
+                <table border="0" style="color:white; text-transform: capitalize;">
+                    <tr rowspan=2><td> <a class="navbar-brand logo" href="#page-top" >
+                                        <img src="assets/img/group_logo.JPG" id="rcorners2"/></a></td>
+                                </tr></table>
+                <button class="navbar-toggler font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#home">Home</a></li>
+						<!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#people">People</a></li> -->
 
+                        <li class="nav-item mx-0 mx-lg-1" id="peopleDropdown">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">People</a>
+                            <ul class="sub-menu">
+                                <li><a class="dropdown-item" href="#internal">Internal</a></li>
+                                <li><a class="dropdown-item" href="#external">External</a></li>
+                            </ul>
+                        </li>
 
-                    <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Funded Projects</a></li> -->
+                        <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Research</a></li> -->
+                        
+						<!-- <li class="nav-item mx-0 mx-lg-1 dropdown" id="researchDropdown">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+                            <ul class="dropdown-menu" aria-labelledby="researchDropdown">
+                                <li><a class="dropdown-item" href="#areasOfInterest">Areas of Interest</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-item" href="#">Funded Projects</a>
+                                    <ul class="submenu">
+                                        <li><a class="dropdown-item" href="#completedProjects">Completed Projects</a></li>
+                                        <li><a class="dropdown-item" href="#ongoingProjects">Ongoing Projects</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#publications">Publications</a></li>
+                                <li><a class="dropdown-item" href="#awards">Awards</a></li>
+                            </ul>
+                        </li> -->
+                        
+                        <!-- <li class="nav-item mx-0 mx-lg-1" id="researchDropdown">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+                            <ul class="sub-menu">
+                              <li><a class="dropdown-item" href="#areasOfInterest">Areas of Interest</a></li>
+                              <li class="nav-item">
+                                <a class="dropdown-item nav-link py-3 px-0 px-lg-3 rounded" href="#">Funded Projects</a>
+                                <ul class="sub-menu">
+                                  <li><a class="dropdown-item" href="#ongoingProjects">Ongoing Projects</a></li>
+                                  <li><a class="dropdown-item" href="#completedProjects">Completed Projects</a></li>
+                                </ul>
+                              </li>
+                              <li><a class="dropdown-item" href="#publications">Publications</a></li>
+                              <li><a class="dropdown-item" href="#rewardsAndHonors">Rewards and Honors</a></li>
+                            </ul>
+                          </li> -->
+                        
 
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#events">Events</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#publications">Pulbications</a></li>
-                    <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#talks">Talks</a></li> -->
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#gallery">Gallery</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#downloads">Downloads</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#contact">Contact</a></li>
-                </ul>
+                          <li class="nav-item mx-0 mx-lg-1" id="researchDropdown">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Research</a>
+                            <ul class="sub-menu">
+                                <li><a class="dropdown-item" href="#areas">Areas of Interest</a></li>
+
+                                <li class="nav-item" id="projectsDropdown">
+                                    <a class="dropdown-item nav-link" href="#">Funded Projects</a>
+                                    <ul class="sub-menu">
+                                        <li><a class="dropdown-item" href="#ongoingProjects">Ongoing Projects</a></li>
+                                        <li><a class="dropdown-item" href="#completedProjects">Completed Projects</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a class="dropdown-item" href="#publications">Publications</a></li>
+                              <li><a class="dropdown-item" href="#awards">Awards and Honors</a></li>
+                            </ul>
+                        </li>
+						<!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Funded Projects</a></li> -->
+						
+                        <li class="nav-item mx-0 mx-lg-1" id="eventsDropdown">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Events</a>
+                            <ul class="sub-menu">
+                                <li><a class="dropdown-item" href="#upcomingEvents">Upcoming Events</a></li>
+                                <li><a class="dropdown-item" href="#conductedEvents">Conducted Events</a></li>
+                            </ul>
+                        </li>
+                        
+                          
+						<!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#publications">Pulbications</a></li> -->
+						<!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#talks">Talks</a></li> -->
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#gallery">Gallery</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#downloads">Downloads</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <table border="0" style="color:white; text-transform: capitalize;; ">
+                    <tr rowspan=2><td> <a class="navbar-brand logo" href="#page-top" >
+                                        <img src="assets/img/iiitk-logo.JPG" id="moral"/></a></td>
+                                </tr></table>
+
             </div>
             <table border="0" style="color:white; text-transform: capitalize;; ">
                 <tr rowspan=2>
@@ -106,6 +166,7 @@
                         organizations.</p>
                 </div>
             </div>
+
             <div class="slider-item" style="background-image:url(assets/img/clg.jpeg);height:400px">
                 <div class="overlay"></div>
                 <div class="container3" style="align-items:center;">
@@ -120,6 +181,20 @@
                             seminars, workshops, hands-on and training programmes.</li>
                         <li>To encourage startups and innovation ideas and consultancy services.</li>
                     </ul>
+
+
+         </div>
+		</section>
+        </header>
+        <section class="bg-primary text-white mb-0" id="internal" style="margin-top: 190px;">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-white">Internal People</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <div class="divider-custom-line"></div>
 
                 </div>
             </div>
@@ -203,44 +278,44 @@
                 </div>
             </div>
             <br>
-    </section>
-    <!-- Courses Section-->
-    <section class="page-section portfolio" id="areas">
-        <div class="container">
-            <!-- Courses Section Heading-->
-            <h2 class="page-section-heading text-center text-secondary mb-0">Research Areas Covered</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Courses Grid Items-->
-            <div class="row">
-                <!-- Courses Item 1-->
-                <div class="col-lg-5 ms-auto "
-                    style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
-                    <h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Computer Vision</h4>
-                    <img src='./assets/img/ann.jpg' width="100px"
-                        style="float:left; padding: 10px; border-radius:40px;" />
-                    <p valign="middle">Brief Info. </p>
+          </section>
+        <!-- External advisory committee -->
+
+        <!-- Courses Section-->
+        <section class="page-section portfolio" id="areas">
+            <div class="container">
+                <!-- Courses Section Heading-->
+                <h2 class="page-section-heading text-center text-secondary mb-0">Research Areas Covered</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
-                <div class="col-lg-5 ms-auto "
-                    style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
-                    <h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Machine Learning</h4>
-                    <img src='./assets/img/ann.jpg' width="100px"
-                        style="float:left; padding: 10px; border-radius:40px;" />
-                    <p valign="middle">Brief Info. </p>
+                <!-- Courses Grid Items-->
+                <div class="row">
+                    <!-- Courses Item 1-->
+                    <div class="col-lg-5 ms-auto " style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
+						<h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Computer Vision</h4>
+						<img src='./assets/img/ann.jpg' width="100px" style="float:left; padding: 10px; border-radius:40px;"/>
+						<p valign="middle">Brief Info. </p>
+					</div>
+					<div class="col-lg-5 ms-auto " style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
+						<h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Machine Learning</h4>
+						<img src='./assets/img/ann.jpg' width="100px" style="float:left; padding: 10px; border-radius:40px;"/>
+						<p valign="middle">Brief Info. </p>
+					</div>
+                    
                 </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
-    <!--         
-		<section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="projects">
+
+
+
+		<!-- <section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="projects">
             <div class="container">
                 
                 <h2 class="page-section-heading text-center text-white">Funded Projects (Sanctioned)</h2>
@@ -275,77 +350,188 @@
 		 </table>
              </div>
 			</div>
-		</section> -->
+		</section>
+		 -->
 
-    <section class="page-section text-secondary " id="events">
-        <div class="container">
-            <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-secondary mb-0" style="line-height:0.9em;">Events Organized
-                (Conferences / Sminars / Workshops / Hackathons etc.)</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <h5><b>1. Event 1</b></h5>
-            <p class="text-muted" align="justify">Description.</p><br>
-            <h5><b>2. Event 2</b></h5>
-            <p class="text-muted" align="justify">Description.</p><br>
-
-
+         <!-- Ongoing Projects Section -->
+<section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="ongoingProjects">
+    <div class="container">
+        <h2 class="page-section-heading text-center text-white">Ongoing Projects (Sanctioned)</h2>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-inr"></i></div>
+            <div class="divider-custom-line"></div>
         </div>
-    </section>
-    <section class="page-section bg-primary text-white mb-0" id="publications">
-        <div class="container">
-            <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-white">Research Publications</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-book"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-
-
-            <div class="about-div ms-auto">
-                <ol>
-                    <li> Piblication1
-                    <li> Publication 2
-                </ol>
-            </div>
-
+        <div class="about-div ms-auto">
+            <table class=" table-curved " style="text-align:center" width="100%" cellspacing="1" cellpadding="1">
+                <tr>
+                    <th>Sl.</th>
+                    <th>Project Title</th>
+                    <th>Funding Agency</th>
+                    <th>Amount</th>
+                </tr>
+                <!-- Ongoing Projects Data Goes Here -->
+                <tr>
+                    <td>1</td>
+                    <td>Title Ongoing 1</td>
+                    <td>Funding Agency Ongoing 1</td>
+                    <td><i class="fa fa-inr"></i>96000/-</td>
+                </tr>
+                <!-- Add more ongoing project rows as needed -->
+            </table>
         </div>
-    </section>
-    <!-- <section class="page-section text-secondary " id="talks"> -->
-    <!-- <div class="container"> -->
-    <!-- Contact Section Heading-->
-    <!-- <h2 class="page-section-heading text-center text-secondary mb-0">Research Talks</h2> -->
-    <!-- Icon Divider-->
-    <!-- <div class="divider-custom"> -->
-    <!-- <div class="divider-custom-line"></div> -->
-    <!-- <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div> -->
-    <!-- <div class="divider-custom-line"></div> -->
-    <!-- </div> -->
-    <!-- <h5><b>1. Talk 1</b></h5> -->
-    <!-- <p class="text-muted" align="justify">Description.</p><br> -->
-    <!-- <h5><b>2. Talk 2</b></h5> -->
-    <!-- <p class="text-muted" align="justify">Description.</p><br> -->
+    </div>
+</section>
 
-    <!-- </div> -->
-    <!-- </section> -->
-    <section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="gallery">
-        <div class="container">
-            <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-white">Gallery</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-user-graduate"></i></div>
-                <div class="divider-custom-line"></div>
+<!-- Completed Projects Section -->
+<section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="completedProjects">
+    <div class="container">
+        <h2 class="page-section-heading text-center text-white">Completed Projects (Sanctioned)</h2>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-inr"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <div class="about-div ms-auto">
+            <table class=" table-curved " style="text-align:center" width="100%" cellspacing="1" cellpadding="1">
+                <tr>
+                    <th>Sl.</th>
+                    <th>Project Title</th>
+                    <th>Funding Agency</th>
+                    <th>Amount</th>
+                </tr>
+                <!-- Completed Projects Data Goes Here -->
+                <tr>
+                    <td>1</td>
+                    <td>Title Completed 1</td>
+                    <td>Funding Agency Completed 1</td>
+                    <td><i class="fa fa-inr"></i>96000/-</td>
+                </tr>
+                <!-- Add more completed project rows as needed -->
+            </table>
+        </div>
+    </div>
+</section>
+
+
+		<section class="page-section text-secondary " id="events">
+            <div class="container">
+                <!-- Upcoming Events -->
+                <div>
+                    <h2 class="page-section-heading text-center text-secondary mb-0" style="line-height:0.9em;" id="upcomingEvents">Upcoming Events</h2>
+                    <div class="divider-custom">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Placeholder for upcoming events -->
+                    <div id="upcomingEventsList">
+                        <h5><b>Upcoming Event 1</b></h5>
+                        <p class="text-muted" align="justify">Description.</p><br>
+                        <h5><b>Upcoming Event 2</b></h5>
+                        <p class="text-muted" align="justify">Description.</p><br>
+                    </div>
+                </div>
+        
+                <!-- Conducted Events -->
+                <div>
+                    <h2 class="page-section-heading text-center text-secondary mb-0" style="line-height:0.9em;" id="conductedEvents">Conducted Events</h2>
+                    <div class="divider-custom">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Placeholder for conducted events -->
+                    <div id="conductedEventsList">
+                        <h5><b>Conducted Event 1</b></h5>
+                        <p class="text-muted" align="justify">Description.</p><br>
+                        <h5><b>Conducted Event 2</b></h5>
+                        <p class="text-muted" align="justify">Description.</p><br>
+                    </div>
+                </div>
             </div>
+        </section>
+        
+		<section class="page-section bg-primary text-white mb-0" id="publications">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-white">Research Publications</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-book"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+			
+			<div class="about-div ms-auto">
+				<ol>
+					<li> Publication 1
+					<li> Publication 2
+				</ol>
+			</div>
+		 
+            </div>
+        </section>
 
-            <!-- <div class="carousel-testimony owl-carousel">
+        <!-- awards section -->
+        <section class="page-section portfolio" id="awards">
+            <div class="container">
+                <!-- Courses Section Heading-->
+                <h2 class="page-section-heading text-center text-secondary mb-0">Awards and Honors</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Courses Grid Items-->
+                <div class="row">
+                    <!-- Courses Item 1-->
+                    <div class="col-lg-5 ms-auto " style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
+						<h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Award 1</h4>
+						<img src='./assets/img/ann.jpg' width="100px" style="float:left; padding: 10px; border-radius:40px;"/>
+						<p valign="middle">Brief Info. </p>
+					</div>
+					<div class="col-lg-5 ms-auto " style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
+						<h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Award 2</h4>
+						<img src='./assets/img/ann.jpg' width="100px" style="float:left; padding: 10px; border-radius:40px;"/>
+						<p valign="middle">Brief Info. </p>
+					</div>
+                    
+                </div>
+            </div>
+        </section>
+
+		<!-- <section class="page-section text-secondary " id="talks"> -->
+            <!-- <div class="container"> -->
+                <!-- Contact Section Heading-->
+                <!-- <h2 class="page-section-heading text-center text-secondary mb-0">Research Talks</h2> -->
+                <!-- Icon Divider-->
+                <!-- <div class="divider-custom"> -->
+                    <!-- <div class="divider-custom-line"></div> -->
+                    <!-- <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div> -->
+                    <!-- <div class="divider-custom-line"></div> -->
+                <!-- </div> -->
+				<!-- <h5><b>1. Talk 1</b></h5> -->
+			<!-- <p class="text-muted" align="justify">Description.</p><br> -->
+			<!-- <h5><b>2. Talk 2</b></h5> -->
+			<!-- <p class="text-muted" align="justify">Description.</p><br> -->
+
+            <!-- </div> -->
+        <!-- </section> -->
+		<section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="gallery">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-white">Gallery</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-user-graduate"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+	         <!-- <div class="carousel-testimony owl-carousel">
               <div class="item">
                 <div class="testimony-wrap d-flex">
                   <div class="user-img mr-4" style="background-image: url(assets/img/vishnavi.jpg)"> </div>
