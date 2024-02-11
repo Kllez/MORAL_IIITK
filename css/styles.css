@@ -11994,3 +11994,96 @@ html {
     opacity: 0;
   }
 }
+
+/* Add this CSS to your stylesheet or in a <style> tag in the HTML */
+.sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: #343a40;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    margin-top: 8px;
+    min-width: 160px;
+    list-style-type: none; /* Remove bullet points */
+    text-align: center; /* Center the text */
+    padding: 0;
+    margin: 0;
+}
+
+#eventsDropdown:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#peopleDropdown:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+#researchDropdown:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #researchDropdown:hover .sub-menu .sub-menu {
+  display: block;
+}  */
+
+#projectsDropdown:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sub-menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.sub-menu a:hover {
+    background-color: #495057;
+}
+
+.navbar-nav .nav-item:focus-within {
+  color: #fff;
+    background: #1abc9c;
+}
+
+/* Add this style to remove the rounded corners from the highlighted item */
+.navbar-nav .nav-item:focus-within a {
+  border-radius: 0;
+}
+
+/* Ensure the dropdown menu is visible on focus */
+.navbar-nav .nav-item:focus-within .sub-menu {
+  display: block;
+}
+
+.sub-menu li {
+  display: block;
+}
+
+
+.nav-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu li {
+  display: block;
+}
+
+.sub-menu .sub-menu {
+  top: 25%;
+  left: 100%;
+  display: none;
+}
+
+.nav-item:hover .sub-menu .sub-menu {
+  display: block;
+}
