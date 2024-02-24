@@ -1,132 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>IIIT Kottayam - MORAL</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		
-		<!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-		<link rel="stylesheet" href="css/Slideshow.css">
-	    <link rel="stylesheet" href="css/owl.carousel.min.css">
-		<link rel="stylesheet" href="css/animate.css">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>IIIT Kottayam - MORAL</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/Slideshow.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+
+
+        <div class="container">
+            <table border="0" style="color:white; text-transform: capitalize;">
+                <tr rowspan=2>
+                    <td> <a class="navbar-brand logo" href="#page-top">
+                            <img src="assets/img/group_logo.JPG" id="rcorners2" /></a></td>
+                </tr>
+            </table>
+            <button class="navbar-toggler font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto1">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#home">Home</a></li>
+                    <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#people">People</a></li> -->
+
+                    <li class="nav-item mx-0 mx-lg-1" id="peopleDropdown">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#people">People</a>
+                        <ul class="sub-menu">
+                            <li><a class="nav-item mx-0 mx-lg-1 dropdown-item" href="#internal">Internal</a></li>
+                            <li><a class="nav-item mx-0 mx-lg-1 dropdown-item" href="#external">External</a></li>
+                        </ul>
+                    </li>
 
 
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-            
-          
-            <div class="container">
-                <table border="0" style="color:white; text-transform: capitalize;">
-                    <tr rowspan=2><td> <a class="navbar-brand logo" href="#page-top" >
-                                        <img src="assets/img/group_logo.JPG" id="rcorners2"/></a></td>
-                                </tr></table>
-                <button class="navbar-toggler font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#home">Home</a></li>
-						<!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#people">People</a></li> -->
-
-                        <li class="nav-item mx-0 mx-lg-1" id="peopleDropdown">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">People</a>
-                            <ul class="sub-menu">
-                                <li><a class="dropdown-item" href="#internal">Internal</a></li>
-                                <li><a class="dropdown-item" href="#external">External</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Research</a></li> -->
-                        
-						<!-- <li class="nav-item mx-0 mx-lg-1 dropdown" id="researchDropdown">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
-                            <ul class="dropdown-menu" aria-labelledby="researchDropdown">
-                                <li><a class="dropdown-item" href="#areasOfInterest">Areas of Interest</a></li>
-                                <li class="dropdown">
-                                    <a class="dropdown-item" href="#">Funded Projects</a>
-                                    <ul class="submenu">
-                                        <li><a class="dropdown-item" href="#completedProjects">Completed Projects</a></li>
-                                        <li><a class="dropdown-item" href="#ongoingProjects">Ongoing Projects</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="dropdown-item" href="#publications">Publications</a></li>
-                                <li><a class="dropdown-item" href="#awards">Awards</a></li>
-                            </ul>
-                        </li> -->
-                        
-                        <!-- <li class="nav-item mx-0 mx-lg-1" id="researchDropdown">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
-                            <ul class="sub-menu">
-                              <li><a class="dropdown-item" href="#areasOfInterest">Areas of Interest</a></li>
-                              <li class="nav-item">
-                                <a class="dropdown-item nav-link py-3 px-0 px-lg-3 rounded" href="#">Funded Projects</a>
+                    <li class="nav-item mx-0 mx-lg-1" id="researchDropdown">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Research</a>
+                        <ul class="sub-menu">
+                            <li><a class="dropdown-item" href="#areas">Areas of Interest</a></li>
+                            <li class="nav-item" id="projectsDropdown">
+                                <a class="dropdown-item nav-link" href="#">Funded Projects</a>
                                 <ul class="sub-menu">
-                                  <li><a class="dropdown-item" href="#ongoingProjects">Ongoing Projects</a></li>
-                                  <li><a class="dropdown-item" href="#completedProjects">Completed Projects</a></li>
+                                    <li><a class="nav-item mx-0 mx-lg-1 dropdown-item" href="#ongoingProjects">Ongoing Projects</a></li>
+                                    <li><a class="nav-item mx-0 mx-lg-1 dropdown-item" href="#completedProjects">Completed Projects</a></li>
                                 </ul>
-                              </li>
-                              <li><a class="dropdown-item" href="#publications">Publications</a></li>
-                              <li><a class="dropdown-item" href="#rewardsAndHonors">Rewards and Honors</a></li>
-                            </ul>
-                          </li> -->
-                        
+                            </li>
 
-                          <li class="nav-item mx-0 mx-lg-1" id="researchDropdown">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Research</a>
-                            <ul class="sub-menu">
-                                <li><a class="dropdown-item" href="#areas">Areas of Interest</a></li>
+                            <li><a class="nav-item mx-0 mx-lg-1 dropdown-item" href="#publications">Publications</a></li>
+                            <li><a class=" nav-item mx-0 mx-lg-1 dropdown-item" href="#awards">Awards and Honors</a></li>
+                        </ul>
 
-                                <li class="nav-item" id="projectsDropdown">
-                                    <a class="dropdown-item nav-link" href="#">Funded Projects</a>
-                                    <ul class="sub-menu">
-                                        <li><a class="dropdown-item" href="#ongoingProjects">Ongoing Projects</a></li>
-                                        <li><a class="dropdown-item" href="#completedProjects">Completed Projects</a></li>
-                                    </ul>
-                                </li>
+                    </li>
+                    <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Funded Projects</a></li> -->
 
-                                <li><a class="dropdown-item" href="#publications">Publications</a></li>
-                              <li><a class="dropdown-item" href="#awards">Awards and Honors</a></li>
-                            </ul>
-                        </li>
-						<!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Funded Projects</a></li> -->
-						
-                        <li class="nav-item mx-0 mx-lg-1" id="eventsDropdown">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Events</a>
-                            <ul class="sub-menu">
-                                <li><a class="dropdown-item" href="#upcomingEvents">Upcoming Events</a></li>
-                                <li><a class="dropdown-item" href="#conductedEvents">Conducted Events</a></li>
-                            </ul>
-                        </li>
-                        
-                          
-						<!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#publications">Pulbications</a></li> -->
-						<!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#talks">Talks</a></li> -->
-						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#gallery">Gallery</a></li>
-						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#downloads">Downloads</a></li>
-						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <table border="0" style="color:white; text-transform: capitalize;; ">
-                    <tr rowspan=2><td> <a class="navbar-brand logo" href="#page-top" >
-                                        <img src="assets/img/iiitk-logo.JPG" id="moral"/></a></td>
-                                </tr></table>
+                    <li class="nav-item mx-0 mx-lg-1" id="eventsDropdown">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#events">Events</a>
+                        <ul class="sub-menu">
+                            <li><a class="nav-item mx-0 mx-lg-1 dropdown-item" href="#upcomingEvents">Upcoming Events</a></li>
+                            <li><a class="nav-item mx-0 mx-lg-1 dropdown-item" href="#conductedEvents">Conducted Events</a></li>
+                        </ul>
+                    </li>
+
+
+                    <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#publications">Pulbications</a></li> -->
+                    <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#talks">Talks</a></li> -->
+                    <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#gallery">Gallery</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#downloads">Downloads</a></li> -->
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#designers">Web and Poster Designers </a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contact">Contact</a></li>
+
+                </ul>
+
 
             </div>
             <table border="0" style="color:white; text-transform: capitalize;; ">
@@ -142,9 +123,9 @@
     </nav>
     <!-- Masthead-->
 
-    <header class="masthead2 text-white text-center" id="home">
+    <header class="masthead2 text-white text-center" id="home" >
         <section class="home-slider owl-carousel owl-theme dots-bottom" style="margin-bottom: -35px;">
-            <div class="slider-item" style="background-image:url(assets/img/clg.jpeg);height:400px">
+            <div class="slider-item" style="background-image:url(assets/img/clg.jpeg);height:400px ;padding-bottom:50px">
                 <div class="overlay"></div>
                 <div class="container3" style="align-items:center;">
                     <h1>Microwave and Optical Advanced Research Lab (MORAL)</h1>
@@ -183,27 +164,17 @@
                     </ul>
 
 
-         </div>
-		</section>
-        </header>
-        <section class="bg-primary text-white mb-0" id="internal" style="margin-top: 190px;">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-white">Internal People</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-chalkboard-teacher"></i></div>
-                    <div class="divider-custom-line"></div>
-
                 </div>
-            </div>
         </section>
     </header>
-    <section class="bg-primary text-white mb-0" id="people" style="margin-top: 190px;">
+
+
+
+    </header>
+    <section class="bg-primary text-white mb-0 people" id="internal" style="margin-top: 205px; ">
         <div class="container">
             <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-white">People</h2>
+            <h1 class="page-section-heading text-center text-white">People</h1>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
@@ -276,46 +247,274 @@
                         style="float:left; padding: 10px; border-radius:40px;" />
                     <p valign="middle"><br>Assistant Professor </p>
                 </div>
-            </div>
-            <br>
-          </section>
-        <!-- External advisory committee -->
-
-        <!-- Courses Section-->
-        <section class="page-section portfolio" id="areas">
-            <div class="container">
-                <!-- Courses Section Heading-->
-                <h2 class="page-section-heading text-center text-secondary mb-0">Research Areas Covered</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <div class="divider-custom-line"></div>
+                <div class="about-div col-lg-5 ms-auto ">
+                    <h4> <i class="far fa-compass"></i>Dr. Kanchan Lata Kashyap</h4>
+                    <img src='./assets/img/kanchanlata.jpg ' width="100px"
+                        style="float:left; padding: 10px; border-radius:40px;" />
+                    <p valign="middle"><br>Assistant Professor </p>
                 </div>
-                <!-- Courses Grid Items-->
-                <div class="row">
-                    <!-- Courses Item 1-->
-                    <div class="col-lg-5 ms-auto " style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
-						<h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Computer Vision</h4>
-						<img src='./assets/img/ann.jpg' width="100px" style="float:left; padding: 10px; border-radius:40px;"/>
-						<p valign="middle">Brief Info. </p>
-					</div>
-					<div class="col-lg-5 ms-auto " style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
-						<h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Machine Learning</h4>
-						<img src='./assets/img/ann.jpg' width="100px" style="float:left; padding: 10px; border-radius:40px;"/>
-						<p valign="middle">Brief Info. </p>
-					</div>
-                    
+                <div class="about-div col-lg-5 ms-auto ">
+                    <h4> <i class="far fa-compass"></i>Dr. Kanchan Lata Kashyap</h4>
+                    <img src='./assets/img/sujamol.jpg ' width="100px"
+                        style="float:left; padding: 10px; border-radius:40px;" />
+                    <p valign="middle"><br>Assistant Professor </p>
                 </div>
+                <br>
+    </section>
+    <section class="bg-primary text-white mb-0" id="external" style="margin-top: -20px;">
+        <h2 class="page-section-heading text-center text-white">External Advisory Committe</h2>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line2"></div>
+        </div>
+        <div class="about-div ms-auto eac">
+            <table class=" table-curved " style="text-align:center " width="100%" cellspacing="1" cellpadding="1">
+                <tr>
+                    <th>Sl.</th>
+                    <th>Name</th>
+                    <th>Organization</th>
+                    <th>Email</th>
+                </tr>
+                <!-- Ongoing Projects Data Goes Here -->
+
+                Prof. Yahia Antar, 
+
+                <tr>
+                    <td>1</td>
+                    <td>Dr Goutam Chattopadhyay </td>
+                    <td>JPL,NASA</td>
+                    <td>Goutam.Chattopadhyay@jpl.nasa.gov</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> Prof. Yahia Antar</td>
+                    <td>Professor, Royal Military College,Canada</td>
+                    <td>yahia.antar@rmc-cmr.ca</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Prof.
+                        Bernard
+                        Jecko</td>
+                    <td>University of
+                        Limoges,
+                        France</td>
+                    <td> bernard.jecko@xlim.fr</td>
+
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Prof. Shiban
+                        Koul</td>
+                    <td>IIT Delhi</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Dr. Gaurav
+                        Trivedi</td>
+                    <td>IIT Guwahati</td>
+                    <td>gaurav.vb.trivedi@gmail.com </td>
+
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Dr. Ravi
+                        Gangwar</td>
+                    <td>IIT (ISM)
+                        Dhanbad</td>
+                    <td>ravi@iitism.ac.in</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>Prof. M M
+                        Sharma</td>
+                    <td>MNIT, Jaipur</td>
+                    <td>mms.ece@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>Dr. Hemant
+                        Kumar</td>
+                    <td>NIT, Thrichy</td>
+                    <td>hemant@nitt.edu</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Dr. Shyam</td>
+                    <td>NITK,
+                        Surathkal</td>
+                    <td>shyamfec@nitk.edu.in</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>Dr. Neela
+                        Chattoraj</td>
+                    <td>BIT, Ranchi</td>
+                    <td>nchattoraj@bitmesra.ac.in</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Prof.
+                        Bhaskar
+                        Gupta</td>
+                    <td>Jadavpur
+                        University,
+                        Kolkata</td>
+                    <td>gupta_bh@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Prof. J S Roy</td>
+                    <td>KIIT
+                        University,
+                        Bhubaneswar</td>
+                    <td>drjsroy@rediffmail.com</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Dr. Abdulla</td>
+                    <td>CUSAT, Kochi</td>
+                    <td>abdulla@cusat.ac.in</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Dr. Basudeb
+                        Ghosh</td>
+                    <td>IIST,
+                        Trivandrum</td>
+                    <td>basuiitr@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Dr. Chinmoy
+                        Saha</td>
+                    <td>IIST,
+                        Trivandrum</td>
+                    <td>chinmoy.rpe@gmail.com</td>
+                </tr>
+            
+           
+                <tr>
+                    <td>16</td>
+                    <td>Dr. Daniel
+                        Rammal,
+                        Senior
+                        Engineer
+                    </td>
+                    <td>Airbus,
+                        France</td>
+                    <td> Mohamad.rammal@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Johannes
+                        Schumacher
+                        (Founder)</td>
+                    <td>Celestial
+                        Space
+                        Technologies,
+                        TU Berlin,
+                        Germany</td>
+                    <td>Johannes@celestialspacetechnologies.com</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Mayank
+                        Sharma
+                        (CEO and
+                        Co-Founder)</td>
+                    <td>Celestial
+                        Space
+                        Technologies,
+                        TU Berlin,
+                        Germany</td>
+                    <td> Mayank@celestialspacetechnologies.com</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Navneet
+                        Singh (CEO)</td>
+                    <td>Kepler
+                        Aerospace,
+                        Bangalore</td>
+                    <td>ceo@kepleraero.com</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Kiran
+                        Sharma</td>
+                    <td>Kepler
+                        Aerospace,
+                        Bangalore</td>
+                    <td>bdo@kepleraero.com</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Manish
+                        (CEO)</td>
+                    <td>Xtragen,
+                        Bangalore</td>
+                    <td>Manish@xtragen.in</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+
+        <br>
+    </section>
+    <!-- External advisory committee -->
+
+    <!-- Courses Section-->
+    <section class="page-section portfolio" id="areas">
+        <div class="container">
+            <!-- Courses Section Heading-->
+            <h2 class="page-section-heading text-center text-secondary mb-0">Research Areas Covered</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
-        </section>
+            <!-- Courses Grid Items-->
+            <div class="row" style="gap:20px">
+                <!-- Courses Item 1-->
+                <div class="about-div col-lg-5 ms-auto research ">
+                    <h5 style="padding-top: 10px;"> 5G RF Energy Harvesting for IoT Greens : Smart Indoor platforms
+                        and Smart City Applications</h5>
+                </div>
+                <div class="about-div col-lg-5 ms-auto research ">
+                    <h5 style="padding-top: 10px;"> AI in Healthcare: Development of Non Invasive Antennas for
+                        Therapeutic Modalities</h5>
+                </div>
+                <div class="about-div col-lg-5 ms-auto research ">
+                    <h5 style="padding-top: 10px;"> Antennas for 5G MIMO Applications</h5>
+
+                </div>
+                <div class="about-div col-lg-5 ms-auto research">
+                    <h5 style="padding-top: 10px;"> Optoelectronics and Laser Spectroscopy</h5>
+                </div>
+                <div class="about-div col-lg-5 ms-auto research ">
+                    <h5 style="padding-top: 10px;"> Image Processing , Machine Learning and NLP</h5>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
 
 
 
 
-		<!-- <section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="projects">
+    <!-- <section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="projects">
             <div class="container">
                 
                 <h2 class="page-section-heading text-center text-white">Funded Projects (Sanctioned)</h2>
@@ -353,185 +552,275 @@
 		</section>
 		 -->
 
-         <!-- Ongoing Projects Section -->
-<section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="ongoingProjects">
-    <div class="container">
-        <h2 class="page-section-heading text-center text-white">Ongoing Projects (Sanctioned)</h2>
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-inr"></i></div>
-            <div class="divider-custom-line"></div>
-        </div>
-        <div class="about-div ms-auto">
-            <table class=" table-curved " style="text-align:center" width="100%" cellspacing="1" cellpadding="1">
-                <tr>
-                    <th>Sl.</th>
-                    <th>Project Title</th>
-                    <th>Funding Agency</th>
-                    <th>Amount</th>
-                </tr>
-                <!-- Ongoing Projects Data Goes Here -->
-                <tr>
-                    <td>1</td>
-                    <td>Title Ongoing 1</td>
-                    <td>Funding Agency Ongoing 1</td>
-                    <td><i class="fa fa-inr"></i>96000/-</td>
-                </tr>
-                <!-- Add more ongoing project rows as needed -->
-            </table>
-        </div>
-    </div>
-</section>
-
-<!-- Completed Projects Section -->
-<section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="completedProjects">
-    <div class="container">
-        <h2 class="page-section-heading text-center text-white">Completed Projects (Sanctioned)</h2>
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-inr"></i></div>
-            <div class="divider-custom-line"></div>
-        </div>
-        <div class="about-div ms-auto">
-            <table class=" table-curved " style="text-align:center" width="100%" cellspacing="1" cellpadding="1">
-                <tr>
-                    <th>Sl.</th>
-                    <th>Project Title</th>
-                    <th>Funding Agency</th>
-                    <th>Amount</th>
-                </tr>
-                <!-- Completed Projects Data Goes Here -->
-                <tr>
-                    <td>1</td>
-                    <td>Title Completed 1</td>
-                    <td>Funding Agency Completed 1</td>
-                    <td><i class="fa fa-inr"></i>96000/-</td>
-                </tr>
-                <!-- Add more completed project rows as needed -->
-            </table>
-        </div>
-    </div>
-</section>
-
-
-		<section class="page-section text-secondary " id="events">
-            <div class="container">
-                <!-- Upcoming Events -->
-                <div>
-                    <h2 class="page-section-heading text-center text-secondary mb-0" style="line-height:0.9em;" id="upcomingEvents">Upcoming Events</h2>
-                    <div class="divider-custom">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div>
-                        <div class="divider-custom-line"></div>
-                    </div>
-                    <!-- Placeholder for upcoming events -->
-                    <div id="upcomingEventsList">
-                        <h5><b>Upcoming Event 1</b></h5>
-                        <p class="text-muted" align="justify">Description.</p><br>
-                        <h5><b>Upcoming Event 2</b></h5>
-                        <p class="text-muted" align="justify">Description.</p><br>
-                    </div>
-                </div>
-        
-                <!-- Conducted Events -->
-                <div>
-                    <h2 class="page-section-heading text-center text-secondary mb-0" style="line-height:0.9em;" id="conductedEvents">Conducted Events</h2>
-                    <div class="divider-custom">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div>
-                        <div class="divider-custom-line"></div>
-                    </div>
-                    <!-- Placeholder for conducted events -->
-                    <div id="conductedEventsList">
-                        <h5><b>Conducted Event 1</b></h5>
-                        <p class="text-muted" align="justify">Description.</p><br>
-                        <h5><b>Conducted Event 2</b></h5>
-                        <p class="text-muted" align="justify">Description.</p><br>
-                    </div>
-                </div>
+    <!-- Ongoing Projects Section -->
+    <section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="ongoingProjects">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-white">Ongoing Projects/Submitted</h2>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-inr"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
-        </section>
-        
-		<section class="page-section bg-primary text-white mb-0" id="publications">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-white">Research Publications</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-book"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                
-			
-			<div class="about-div ms-auto">
-				<ol>
-					<li> Publication 1
-					<li> Publication 2
-				</ol>
-			</div>
-		 
-            </div>
-        </section>
+            <div class="about-div ms-auto">
+                <table class=" table-curved " style="text-align:center " width="100%" cellspacing="1" cellpadding="1">
+                    <tr>
+                        <th>Sl.</th>
+                        <th>Agency</th>
+                        <th>Status</th>
+                        <th>Project Amount</th>
+                    </tr>
+                    <!-- Ongoing Projects Data Goes Here -->
+                    <tr>
+                        <td>1</td>
+                        <td>DST-SERB</td>
+                        <td> Submitted</td>
+                        <td><i class="fa fa-inr"></i>420000/-</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>MieTy- NSF</td>
+                        <td> Submitted</td>
+                        <td><i class="fa fa-inr"></i>2 Crores/-</td>
+                    </tr>
 
-        <!-- awards section -->
-        <section class="page-section portfolio" id="awards">
-            <div class="container">
-                <!-- Courses Section Heading-->
-                <h2 class="page-section-heading text-center text-secondary mb-0">Awards and Honors</h2>
-                <!-- Icon Divider-->
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Completed Projects Section -->
+    <!-- <section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="completedProjects">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-white">Completed Projects (Sanctioned)</h2>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-inr"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="about-div ms-auto">
+                <table class=" table-curved " style="text-align:center" width="100%" cellspacing="1" cellpadding="1">
+                    <tr>
+                        <th>Sl.</th>
+                        <th>Project Title</th>
+                        <th>Funding Agency</th>
+                        <th>Amount</th>
+                    </tr>
+                   
+                    <tr>
+                        <td>1</td>
+                        <td>Title Completed 1</td>
+                        <td>Funding Agency Completed 1</td>
+                        <td><i class="fa fa-inr"></i>96000/-</td>
+                    </tr>
+                   
+                </table>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="page-section text-secondary " id="events">
+        <div class="container">
+            <!-- Upcoming Events -->
+            <div>
+                <h2 class="page-section-heading text-center text-secondary mb-0" style="line-height:0.9em;"
+                    id="upcomingEvents">Upcoming Events</h2>
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Courses Grid Items-->
-                <div class="row">
-                    <!-- Courses Item 1-->
-                    <div class="col-lg-5 ms-auto " style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
-						<h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Award 1</h4>
-						<img src='./assets/img/ann.jpg' width="100px" style="float:left; padding: 10px; border-radius:40px;"/>
-						<p valign="middle">Brief Info. </p>
-					</div>
-					<div class="col-lg-5 ms-auto " style="background: rgba(126, 150, 156); border-radius: 25px; color:white;">
-						<h4 style="padding-top: 10px;"> <i class="far fa-compass"></i> Award 2</h4>
-						<img src='./assets/img/ann.jpg' width="100px" style="float:left; padding: 10px; border-radius:40px;"/>
-						<p valign="middle">Brief Info. </p>
-					</div>
-                    
+                <!-- Placeholder for upcoming events -->
+                <div id="upcomingEventsList">
+                    <h5><b>Upcoming Event 1</b></h5>
+                    <p class="text-muted" align="justify">
+                    <p>One day Seminar Lecture on Microwave to Terahertz: A Paradigm Shift and IEEE Awareness Program
+                    </p>
+                    <p>Chief Guest : Dr Gautam Chattopadhyay, Senior Scientist, Jet Propulsion Lab, NASA</p>
+                    <p>
+                    <dl>
+                        <dt> IEEE Awareness Speakers:</dt>
+                        <dd style="margin-left: 30px;"> Dr. B S Manoj, Professor, IIST Trivandrum</dd>
+                        <dd style="margin-left: 30px;"> Dr. Chinmoy Saha, Professor, IIST Trivandrum, IEEE SIGHT
+                            Co-Chairman & R10 Coordinator</dd>
+                    </dl>
+                    </p>
+                    </p>
+                    <div class="w3-content w3-display-container">
+                        <center><img class="mySlides" src="./images/img2.jpg" </center>
+                            <center><img class="mySlides" src="./images/img3.jpg" </center>
+                                <button class="w3-button w3-black w3-display-left"
+                                    style="border-radius: 30px;background-color:#7e90ac !important "
+                                    onclick="plusDivs(-1)">&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right"
+                                    style="border-radius: 30px;background-color:#7e90ac !important "
+                                    onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+
                 </div>
             </div>
-        </section>
 
-		<!-- <section class="page-section text-secondary " id="talks"> -->
-            <!-- <div class="container"> -->
-                <!-- Contact Section Heading-->
-                <!-- <h2 class="page-section-heading text-center text-secondary mb-0">Research Talks</h2> -->
-                <!-- Icon Divider-->
-                <!-- <div class="divider-custom"> -->
-                    <!-- <div class="divider-custom-line"></div> -->
-                    <!-- <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div> -->
-                    <!-- <div class="divider-custom-line"></div> -->
-                <!-- </div> -->
-				<!-- <h5><b>1. Talk 1</b></h5> -->
-			<!-- <p class="text-muted" align="justify">Description.</p><br> -->
-			<!-- <h5><b>2. Talk 2</b></h5> -->
-			<!-- <p class="text-muted" align="justify">Description.</p><br> -->
-
-            <!-- </div> -->
-        <!-- </section> -->
-		<section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="gallery">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-white">Gallery</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+            <!-- Conducted Events -->
+            <!-- <div>
+                <h2 class="page-section-heading text-center text-secondary mb-0" style="line-height:0.9em;"
+                    id="conductedEvents">Conducted Events</h2>
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-user-graduate"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 
-	         <!-- <div class="carousel-testimony owl-carousel">
+                <div id="conductedEventsList">
+                    <h5><b>Conducted Event 1</b></h5>
+                    <p class="text-muted" align="justify">Description.</p><br>
+                    <h5><b>Conducted Event 2</b></h5>
+                    <p class="text-muted" align="justify">Description.</p><br>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="page-section bg-primary text-white mb-0" id="publications">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-white">Research Publications</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-book"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+
+            <div class="about-div ms-auto">
+                <ol>
+                    <li>D Ganguly, J.C Dash, Ragesh G K, “Development of a Circularly Polarized Conformal Antenna Array
+                        for RF Energy Harvesting at 2.4 GHz for IoT Powered Smart Indoor Applications” IEEE URSI Antenna
+                        and Propagation Symposium, Florence, Italy, July, 2024 (Submitted)</li>
+                    <br>
+                    <li> D Ganguly, J C Dash, Y Antar, “Development of a Non-invasive Antenna Array for Non-Thermal
+                        Electroporation in Therapeutic Modality of Skin Tissue Tumors”, IEEE URSI Antenna and
+                        Propagation Symposium, Florence, Italy, July, 2024 (Submitted)
+                    </li>
+                    <br>
+                    <li>
+                        Satya Singh and Milind Thomas Themalil, "Investigations on a 2T2R MIMO Microstrip Patch Antenna
+                        for Next Generation Wireless Networks", IJMOT-2022-7-262406, Vol. 17, No. 6, pp. 630-638,
+                        International Journal of Microwave and Optical Technology, USA, Nov 2022.
+                    </li>
+                    <br>
+                    <li>
+                        Milind Thomas Themalil, Satya Singh, Divanshu Jain, Dinesh Yadav, Mohamad Rammal and Mayank
+                        Sharma, "Miniaturization Capability of the Pixel Antenna for Nanosatellite Footprints", VLSI,
+                        Microwave and Wireless Technologies, Springer, ISBN: 978-981-19-0311-3, Lect. Notes Electrical
+                        Eng., Vol. 877, doi: 10.1007/978-981-19-0312-0, 4 Sept 2022.
+                    </li>
+                    <br>
+                    <li>
+                        Dr. Ragesh G K and Dr. Ajay Kumar, “Node Localization Based on Unsupervised Approach and Secure
+                        Routing for Healthcare Management in Delay Tolerant Networks”, The Journal of Supercomputing,
+                        Springer. (In Submission)
+                    </li>
+                    <br>
+                    <li>
+                        Dr. Ragesh G K and Dr. Ajay Kumar, “Trust-Based Secure Routing and Message delivery Protocol for
+                        Signal Processing Attacks in IoT Applications”, The Journal of Supercomputing, Springer, 2022.
+                        (SCIE indexed)
+                    </li>
+                    <br>
+                    <li>
+                        Christina Gamal, Kang An, Xingwang Li, Varun G Menon, Dr. Ragesh G K, Mostafa M. Fouda, Basem M.
+                        ElHalawany, “Performance of Hybrid Satellite-UAV NOMA Systems”, IEEE International Conference on
+                        Communications (IEEE-ICC), May 2022, Seoul, South Korea (Flagship Conference of IEEE)
+                    </li>
+                    <br>
+                    <li>
+                        Xingwang Li, Yike Zheng, WaliUllah Khan, Ming Zeng, Dong Li, Ragesh G. K, Lihua Li, “Physical
+                        Layer Security of Cognitive Ambient Backscatter Communications for Green Internet-of-Things”,
+                        IEEE Transactions on Green Communications and Networking, 2021 (SCIE indexed)
+                    </li>
+                    <br>
+                </ol>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- awards section -->
+    <section class="page-section portfolio" id="awards">
+        <div class="container">
+            <!-- Courses Section Heading-->
+            <h2 class="page-section-heading text-center text-secondary mb-0">Awards and Honors</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="row" style="gap:20px">
+                <!-- Courses Item 1-->
+                <div class="about-div col-lg-5 ms-auto research ">
+                    Dr. Debarati Ganguly is Invited for delivering a talk for “IEEE Young Professionals”, at Wireless
+                    Antennas and Microwave Symposium, WAMS, 2024, to be held at Vizag, Feb. 28-Mar., 3rd, 2024.
+                </div>
+                <div class="about-div col-lg-5 ms-auto research ">
+                    Dr. Debarati Ganguly has received Best Paper Award (2nd position in Academia) at IEEE Microwaves and
+                    Antenna Propagation Conference, MAPCON, Ahmedabad, 10-14th Dec, 2023.
+                </div>
+                <div class="about-div col-lg-5 ms-auto research ">
+                    Dr. Debarati Ganguly has been invited for panel discussion for “Women in Engineering Session” at
+                    IEEE Microwaves and Antenna Propagation Conference, MAPCON, Ahmedabad, 10-14th Dec, 2023, Topic:
+                    Future for Microwave Professionals: Opportunities and Challenges.
+                </div>
+                <div class="about-div col-lg-5 ms-auto research ">
+                    D Ragesh G K is the recipient of prestigious UKI-FNI (UK India Future Networks Initiative) Funding
+                    Grant-2022 from EPSRC, United Kingdom, (Grant Amount: 40 lakhs INR)
+                </div>
+                <div class="about-div col-lg-5 ms-auto research ">
+                    Dr. Ragesh G K has received BRITISH Council’s Going Global Partnership Programme- Exploratory Grant
+                    Awardee (Grant Amount: 15 lakhs INR)
+                </div>
+                <div class="about-div col-lg-5 ms-auto research ">
+                    DST-DAAD 2022 Awardee
+                </div>
+            </div>
+
+
+
+        </div>
+        </div>
+    </section>
+
+    <!-- <section class="page-section text-secondary " id="talks"> -->
+    <!-- <div class="container"> -->
+    <!-- Contact Section Heading-->
+    <!-- <h2 class="page-section-heading text-center text-secondary mb-0">Research Talks</h2> -->
+    <!-- Icon Divider-->
+    <!-- <div class="divider-custom"> -->
+    <!-- <div class="divider-custom-line"></div> -->
+    <!-- <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div> -->
+    <!-- <div class="divider-custom-line"></div> -->
+    <!-- </div> -->
+    <!-- <h5><b>1. Talk 1</b></h5> -->
+    <!-- <p class="text-muted" align="justify">Description.</p><br> -->
+    <!-- <h5><b>2. Talk 2</b></h5> -->
+    <!-- <p class="text-muted" align="justify">Description.</p><br> -->
+
+    <!-- </div> -->
+    <!-- </section> -->
+    <!-- <section class="page-section bg-primary text-white mb-0 ftco-section testimony-section" id="gallery">
+        <div class="container">
+            
+            <h2 class="page-section-heading text-center text-white">Gallery</h2>
+           
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-user-graduate"></i></div>
+                <div class="divider-custom-line"></div>
+            </div> -->
+
+    <!-- <div class="carousel-testimony owl-carousel">
               <div class="item">
                 <div class="testimony-wrap d-flex">
                   <div class="user-img mr-4" style="background-image: url(assets/img/vishnavi.jpg)"> </div>
@@ -606,11 +895,11 @@
 			</div>
 		</section> -->
 
-            <section class="page-section text-secondary " id="downloads">
+    <!-- <section class="page-section text-secondary " id="downloads">
                 <div class="container">
-                    <!-- Contact Section Heading-->
+                    
                     <h2 class="page-section-heading text-center text-secondary mb-0">Downloads</h2>
-                    <!-- Icon Divider-->
+                   
                     <div class="divider-custom">
                         <div class="divider-custom-line"></div>
                         <div class="divider-custom-icon"><i class="fas fa-question-circle"></i></div>
@@ -622,148 +911,220 @@
 
 
 
+                </div> 
+            </section> -->
+
+    <section class="page-section bg-primary text-white mb-0" id="designers">
+        <h2 class="page-section-heading text-center text-secondary mb-0" style="margin-bottom: 30px;">Web and Poster
+            Designers</h2>
+
+        <!-- Icon Divider-->
+
+        <div class="divider-custom divider-light" style="margin-top: 30px; ">
+            <div class="divider-custom-line2"></div>
+        </div>
+
+        <div class="container">
+            <div class="row" style="gap:20px">
+                <div class="about-div col-lg-5 ms-auto  ">
+                    <h4> <i class="far fa-compass"></i> Karthik Konduru</h4>
+
+                    <p valign="middle"><br><i class="fas fa-envelope"></i> konduru21bcs93@iiitkottayam.ac.in </p>
                 </div>
-            </section>
 
-            <!-- Footer-->
-            <footer class="footer text-center" id="contact">
-                <div class="container">
+                <div class="about-div col-lg-5 mx-auto">
+                    <h4> <i class="far fa-compass"></i> Riya Bajaj</h4>
 
-                    <div class="row">
-                        <!-- Footer Location-->
-                        <!-- <div class="box"> -->
-                        <div class="col-lg-4">
-                          
-                            <h4 class="text-uppercase mb-4">Links</h4>
-                            <p class="lead mb-0">
-                                <a style="text-decoration: none; color:white;" href="#home">Home</a><br>
-                                <a style="text-decoration: none; color:white;" href="#events">Events</a><br>
-                                <a style="text-decoration: none; color:white;" href="#home">Personal</a><br>
-                                <a style="text-decoration: none; color:white;" href="#publications">Publications</a><br>
-                            </p>
-                            <div class="media">
-                                <h4 class="text-uppercase mb-4">Around the Web</h4>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/IIITKottayamofficial/"><i class="fab fa-fw fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/IIITKKottayam"><i class="fab fa-fw fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/iiit-kottayam"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/channel/UC3jrKDXjl7_c5bld5x8C1vw"><i class="fab fa-fw fa-youtube"></i></a>
-                            </div>
-                            <br/>
-                           
+                    <p valign="middle"><br><i class="fas fa-envelope"></i> riya21bcs173@iiitkottayam.ac.in </p>
+                </div>
+                <div class="about-div col-lg-5 ms-auto  ">
+                    <h4> <i class="far fa-compass"></i> Karthik Bandela</h4>
+                    <p valign="middle"><br><i class="fas fa-envelope"></i> bandela21bec34@iiitkottaym.ac.in </p>
+                </div>
+                <div class="about-div col-lg-5 ms-auto  ">
+                    <h4> <i class="far fa-compass"></i>Amritha anujan</h4>
 
-                        </div>
-                        <div class="message-box">
-                            <h3>Query Box</h3>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
+                </div>
+                <div class="about-div col-lg-5 ms-auto  ">
+                    <h4> <i class="far fa-compass"></i> Suchit Paul</h4>
 
-                            <label for="affiliation">Affiliation:</label>
-                            <input type="text" id="affiliation" name="affiliation" required>
+                </div>
+                <div class="about-div col-lg-5 ms-auto  ">
+                    <h4> <i class="far fa-compass"></i> Kavya Vivekanandbaliga</h4>
 
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="2" required></textarea>
-
-                            <button type="submit" class="button1">Submit</button>
-                        </div>
-
-                        <!-- </div> -->
+                </div>
+            </div>
+        </div>
 
 
+    </section>
 
-                        <div class="col-lg-4 mb-5 mb-lg-0" >
-                            <h4 class="text-uppercase mb-4">Contact us</h4>
-                            <div>
-                                <p class="lead mb-0" style="font-size: 15px;">
-                                    Indian Institute Of Information Technology Kottayam,
-                                    Valavoor P O, Pala, Kottayam Kerala, India - 686635 <br />
-                                    <a style="text-decoration: none; color: white;" href="tel:+91-0482-2202161">
-                                        <i class="fas fa-phone"></i> &nbsp; Phone: +91-0482-2202XXX </a><br />
-                                    <a style="text-decoration: none; color: white;"
-                                        href="mailto:moral@iiitkottayam.ac.in"><i class="fas fa-envelope"></i>
-                                        &nbsp;
-                                        EMAIL</a>
-                                </p>
-                                
-                                <br>
+    <!-- Footer-->
+    <footer class="footer text-center" id="contact" style="padding-bottom:100px">
+        <div class="container">
 
+            <div class="row">
+                <!-- Footer Location-->
+                <!-- <div class="box"> -->
+                <div class="col-lg-4">
 
-                                <p>Dr. Milind Thomas Themalil <br>
-                                    <a style="text-decoration: none; color: white;" href="tel:+91 (0) 482-2202221">
-                                        <i class="fas fa-phone"></i> &nbsp; Phone: +91-0482-2202XXX </a><br />
-                                    <a style="text-decoration: none; color: white;"
-                                        href="mailto:milind@iiitkottayam.ac.in"><i class="fas fa-envelope"></i>
-                                        &nbsp;
-                                        EMAIL</a> <br />
-                                   
-                                </p>
-                                <p>Dr. Debarati Ganguly <br>
-                                    <a style="text-decoration: none; color: white;" href="tel:+91 (0) 482-2202261">
-                                        <i class="fas fa-phone"></i> &nbsp; Phone: +91-0482-2202XXX </a><br />
-                                    <a style="text-decoration: none; color: white;"
-                                        href="mailto:debarati@iiitkottayam.ac.in"><i class="fas fa-envelope"></i>
-                                        &nbsp;
-                                        EMAIL</a> <br />
-                                
-                                </p>
-
-
-                                <p> Dr. Della Thomas <br>
-                                    <a style="text-decoration: none; color: white;" href="tel:+91 (0) 482-2202183">
-                                        <i class="fas fa-phone"></i> &nbsp; Phone: +91-0482-2202XXX </a><br />
-                                    <a style="text-decoration: none; color: white;"
-                                        href="mailto:della@iiitkottayam.ac.in"><i class="fas fa-envelope"></i> &nbsp;
-                                        EMAIL</a> <br />
-                                    
-                                </p>
-                            </div>
-                            
-
-                        </div>
-                       
+                    <h4 class="text-uppercase mb-4">Links</h4>
+                    <p class="lead mb-0">
+                        <a style="text-decoration: none; color:white;" href="#home">Home</a><br>
+                        <a style="text-decoration: none; color:white;" href="#events">Events</a><br>
+                        <a style="text-decoration: none; color:white;" href="#home">Personal</a><br>
+                        <a style="text-decoration: none; color:white;" href="#publications">Publications</a><br>
+                    </p>
+                    <div class="media">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1"
+                            href="https://www.facebook.com/IIITKottayamofficial/"><i
+                                class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/IIITKKottayam"><i
+                                class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1"
+                            href="https://www.linkedin.com/in/iiit-kottayam"><i
+                                class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1"
+                            href="https://www.youtube.com/channel/UC3jrKDXjl7_c5bld5x8C1vw"><i
+                                class="fab fa-fw fa-youtube"></i></a>
                     </div>
+                    <br />
+
+
+                </div>
+                <div class="message-box">
+                    <h3>Query Box</h3>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="affiliation">Affiliation:</label>
+                    <input type="text" id="affiliation" name="affiliation" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="2" required></textarea>
+
+                    <button type="submit" class="button1">Submit</button>
+                </div>
+
+                <!-- </div> -->
+
+
+
+                <div class="col-lg-4 mb-5 mb-lg-0 contactClass">
+                    <h4 class="text-uppercase mb-4 ">Contact us</h4>
                     <div>
+                        <p class="lead mb-0" style="font-size: 15px;">
+                            Indian Institute Of Information Technology Kottayam,
+                            Valavoor P O, Pala, Kottayam Kerala, India - 686635 <br />
+                            <a style="text-decoration: none; color: white;" href="tel:+91-0482-2202161">
+                                <i class="fas fa-phone"></i> &nbsp; Phone: +91-0482-2202XXX </a><br />
+                            <a style="text-decoration: none; color: white;" href="mailto:moral@iiitkottayam.ac.in"><i
+                                    class="fas fa-envelope"></i>
+                                &nbsp;
+                                EMAIL</a>
+                        </p>
+
+                        <br>
 
 
+                        <p>Dr. Milind Thomas Themalil <br>
+                            <a style="text-decoration: none; color: white;" href="tel:+91 (0) 482-2202221">
+                                <i class="fas fa-phone"></i> &nbsp; Phone: +91-0482-2202XXX </a><br />
+                            <a style="text-decoration: none; color: white;" href="mailto:milind@iiitkottayam.ac.in"><i
+                                    class="fas fa-envelope"></i>
+                                &nbsp;
+                                EMAIL</a> <br />
+
+                        </p>
+                        <p>Dr. Debarati Ganguly <br>
+                            <a style="text-decoration: none; color: white;" href="tel:+91 (0) 482-2202261">
+                                <i class="fas fa-phone"></i> &nbsp; Phone: +91-0482-2202XXX </a><br />
+                            <a style="text-decoration: none; color: white;" href="mailto:debarati@iiitkottayam.ac.in"><i
+                                    class="fas fa-envelope"></i>
+                                &nbsp;
+                                EMAIL</a> <br />
+
+                        </p>
+
+
+                        <p> Dr. Della Thomas <br>
+                            <a style="text-decoration: none; color: white;" href="tel:+91 (0) 482-2202183">
+                                <i class="fas fa-phone"></i> &nbsp; Phone: +91-0482-2202XXX </a><br />
+                            <a style="text-decoration: none; color: white;" href="mailto:della@iiitkottayam.ac.in"><i
+                                    class="fas fa-envelope"></i> &nbsp;
+                                EMAIL</a> <br />
+
+                        </p>
                     </div>
+
+
                 </div>
+
+            </div>
+            <div>
+
+
+            </div>
+        </div>
         </div>
 
         </div>
-        </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-2 text-center text-white">
-            <div class="container"> &copy; IIIT Kottayam 2022</div>
-        </div>
-        <!-- Courses Modals-->
-        <!-- Courses Modal 1-->
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-2 text-center text-white">
+        <div class="container"> &copy; IIIT Kottayam 2022</div>
+    </div>
+    <!-- Courses Modals-->
+    <!-- Courses Modal 1-->
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $(".home-slider").owlCarousel({
-                    items: 1,
-                    loop: true,
-                    autoplay: true,
-                    autoplayTimeout: 4000, // Slide every 4 seconds
-                    animateOut: 'fadeOut', // Fade out transition for smoother content change
-                    dots: false, // Remove pagination dots if not needed
-                    mouseDrag: true, // Disable mouse drag to prevent user interference during automatic sliding
-                    touchDrag: false, // Disable touch drag for consistency
-                    autoplayHoverPause: true, // Pause autoplay on hover
-                });
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".home-slider").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 4000, // Slide every 4 seconds
+                animateOut: 'fadeOut', // Fade out transition for smoother content change
+                dots: false, // Remove pagination dots if not needed
+                mouseDrag: true, // Disable mouse drag to prevent user interference during automatic sliding
+                touchDrag: false, // Disable touch drag for consistency
+                autoplayHoverPause: true, // Pause autoplay on hover
             });
-        </script>
-        <script src="js/aos.js"></script>
-        <script src="js/scrollax.min.js"></script>
-        <script src="js/main.js"></script>
+        });
+    </script>
+    <script src="js/aos.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
 </body>
 
 </html>
